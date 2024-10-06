@@ -1,6 +1,7 @@
 body {
     font-family:"Roboto", sans-serif;
-    color:#434455
+    color:#434455;
+    background-color:#FFFFFF;
 }
 .header {
 
@@ -11,7 +12,8 @@ body {
 }
 
 .header-logo {
-    font-family: var(--second-family);font-weight: 700;
+    font-family:"Raleway",sans-serif;
+    font-weight: 700;
     font-size: 18px;
     line-height: 117%;
     letter-spacing: 0.03em;
@@ -41,29 +43,29 @@ body {
 }
 
 .header-contcat {
-
+font-style: normal;
 }
 
 .header-contact-info {
-    font-style: normal;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color:#2E2F42
+    color:#434455
 }
 .header-contact-info:hover, .header-contact-info:focus{
     color: #404BBF
 }
 
-.title {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 107%;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
+.main-title {
     background-color: #2E2F42;
 }
-
+.main-title-text{
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 107%;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+}
 .title-btn {
         font-family: inherit;
     font-weight: 500;
@@ -78,20 +80,14 @@ body {
     background-color: #404BBF
 }
 .visually-hidden{
-    position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
         border: 0;
-        padding: 0;
-    
         white-space: nowrap;
         clip-path: inset(100%);
         clip: rect(0 0 0 0);
         overflow: hidden;
 }
 
-.features-tytle {
+.features-title {
     font-weight: 500;
         font-size: 20px;
         line-height: 120%;
@@ -105,7 +101,7 @@ body {
     letter-spacing: 0.02em;
 }
 .team {
-
+background: #F4F4FD;
 }
 
 .team-title {
@@ -115,10 +111,11 @@ body {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2E2F42;
+        text-transform: capitalize;
 }
 
 .team-list {
-        background:#F4F4FD;
+    background-color: #FFFFFF
 }
 
 .team-item {
@@ -143,7 +140,7 @@ body {
         line-height: 150%;
         letter-spacing: 0.02em;
         text-align: center;
-        color: #2E2F42;
+        color: #434455
 }
 
 .portfolio {
@@ -157,6 +154,7 @@ body {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2E2F42;
+        text-transform: capitalize;
 }
 
 .portfolio-list {
@@ -187,7 +185,7 @@ body {
 }
 
 .footer-logo {
-    font-family: var(--second-family);
+    font-family:"Raleway",sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 117%;
